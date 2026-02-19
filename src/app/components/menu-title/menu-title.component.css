@@ -1,0 +1,16 @@
+.container__menu-title {
+  color: white;
+}
+
+.container__menu-title > h1 {
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: clamp(36px, 5vw, 128px);
+  text-transform: uppercase;
+}
+
+.container__menu-title > hr {
+  margin: 16px 0;
+}
