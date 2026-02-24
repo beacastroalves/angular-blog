@@ -8,6 +8,10 @@
   flex-direction: column;
   gap: 8px;
   padding: 16px;
+  margin: 16px;
+}
+.container__big-card a {
+  text-decoration: none;
 }
 
 .big-card__photo > img {
@@ -21,4 +25,5 @@
 
 .big-card__description > p {
   color: #999999;
+  text-align: justify;
 }
