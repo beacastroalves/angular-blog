@@ -1,0 +1,17 @@
+.menu-bar__container ul {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+.menu-bar__container ul a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.45s;
+}
+
+.menu-bar__container ul a:hover {
+  background-color: #333;
+}
