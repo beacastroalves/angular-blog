@@ -1,21 +1,28 @@
+a {
+  text-decoration: none;
+}
+
 .small-card__container {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   height: 100%;
   min-height: 100px;
-  
+
   display: flex;
   flex-direction: column;
 }
 
 .small-card__content {
   display: flex;
+  align-items: center;
   gap: 16px;
   padding: 16px 0;
+  text-align: justify;
 }
 
 .small-card__photo img {
-  min-width: 150px;
+  display: flex;
+  width: 160px;
   height: 100px;
 }
 
